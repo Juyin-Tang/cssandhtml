@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Itim';
+    src: url(Itim-Regular.ttf)
+}
+
+@font-face {
+    font-family: 'OSwald-Variable_wght';
+    src: url(Oswald-VariableFont_wght.ttf)
+}
+
+.top-bar {
+    background: #eaacac;
+    font-family: sans-serif;
+}
+
+a{
+    padding:20px 30px;
+    line-height:1;
+    font-family: sans-serif;
+}
+
+a,body{
+    color: #201f1f;
+
+}
+
+.fl{
+    float:left;
+}
+
+.fr{
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+.header .logo{
+    line-height:1;
+    border:5px solid #7c5c5c;
+    padding:10px 20px;
+    font-size:30px;
+    display:inline-block;
+    margin-bottom:10px;
+    font-family: 'OSwald-Variable_wght', sans-serif;
+}
+
+.clear-f::after,
+.clear-f::before {
+    content: '';
+    display:block;
+    clear: both;
+}
