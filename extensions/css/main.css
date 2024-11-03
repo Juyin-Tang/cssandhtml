@@ -1,23 +1,36 @@
+@font-face {
+    font-family: 'Itim';
+    src: url(Itim-Regular.ttf)
+}
+
+@font-face {
+    font-family: 'OSwald-Variable_wght';
+    src: url(Oswald-VariableFont_wght.ttf)
+}
 .container {
     max-width:1080px;
     margin: 0 auto;
     text-align: center;
+    font-family: 'OSwald-Variable_wght', sans-serif;
 }
 
 .top-bar {
     background: #eaacac;
+    font-family: sans-serif;
 }
 
 a{
     padding:20px 30px;
     line-height:1;
+    font-family: sans-serif;
 
 }
 
 
 
 a,body{
-    color: #201f1f
+    color: #201f1f;
+
 }
 
 .fl{
@@ -44,7 +57,7 @@ a,body{
     font-size:30px;
     display:inline-block;
     margin-bottom:10px;
-
+    font-family: 'OSwald-Variable_wght', sans-serif;
 }
 
 .company-name1 {
@@ -52,7 +65,7 @@ a,body{
     font-size:30px;
     text-align:center;
     line-height:2;
-
+    font-family: 'OSwald-Variable_wght', sans-serif;
 }
 
 background-image: linear-gradient(black, white);
@@ -65,6 +78,7 @@ background-image: url("background.jpg");
     -webkit-box-sizing:border-box;
     box-sizing:border-box;
     background:rgba(0,0,0,.1);
+
 }
 
 
@@ -77,3 +91,8 @@ background-image: url("background.jpg");
     border:50px solid rgba(246, 241, 241, 0);
 
 }
+
+.content.container {
+    font-family: sans-serif;
+}
+
