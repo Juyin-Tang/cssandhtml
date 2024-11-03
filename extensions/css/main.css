@@ -72,3 +72,8 @@ background-image: url("background.jpg");
     display: flex;
     justify-content: center;
 }
+
+.space{
+    border:50px solid rgba(246, 241, 241, 0);
+
+}
