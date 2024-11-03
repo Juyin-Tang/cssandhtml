@@ -5,7 +5,10 @@
 
 .top-bar {
     background: #eaacac;
+}
 
+a,body{
+    color: #201f1f
 }
 
 .fl{
@@ -24,10 +27,24 @@
 }
 
 .header .logo{
+    line-height:1;
+    border:5px solid #7c5c5c;
     padding:10px 20px;
     font-size:30px;
+    display:inline-block;
+    margin-bottom:10px;
 }
 
+.company-name {
+    padding:10px 20px;
+    font-size:30px;
+    text-align:center;
+    line-height:2;
+
+}
+
+background-image: linear-gradient(black, white);
+background-image: url("background.jpg");
 
 
 
@@ -39,3 +56,7 @@
 }
 
 
+.img {
+    display: block;
+    margin: 0 auto;
+}
