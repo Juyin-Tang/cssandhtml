@@ -11,8 +11,10 @@
 a{
     padding:20px 30px;
     line-height:1;
-    margin-top:20px;
+
 }
+
+
 
 a,body{
     color: #201f1f
@@ -24,6 +26,8 @@ a,body{
 
 .fr{
     float: right;
+    display: flex;
+    align-items: center;
 }
 
 .clear-f::after,
@@ -40,9 +44,10 @@ a,body{
     font-size:30px;
     display:inline-block;
     margin-bottom:10px;
+
 }
 
-.company-name {
+.company-name1 {
     padding:10px 20px;
     font-size:30px;
     text-align:center;
