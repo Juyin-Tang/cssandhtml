@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Itim';
+    src: url(Itim-Regular.ttf)
+}
+
+@font-face {
+    font-family: 'OSwald-Variable_wght';
+    src: url(Oswald-VariableFont_wght.ttf)
+}
+
+.top-bar {
+    background: #eaacac;
+    font-family: sans-serif;
+}
+
+a{
+    padding:20px 30px;
+    line-height:1;
+    font-family: sans-serif;
+}
+
+a,body{
+    color: #201f1f;
+
+}
+
+.fl{
+    float:left;
+}
+
+.fr1{
+    float: right;
+}
+
+
+.fr{
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+.clear-f::after,
+.clear-f::before {
+    content: '';
+    display:block;
+    clear: both;
+}
+
+.header .logo{
+    line-height:1;
+    border:5px solid #7c5c5c;
+    padding:10px 20px;
+    font-size:30px;
+    display:inline-block;
+    margin-bottom:10px;
+    font-family: 'OSwald-Variable_wght', sans-serif;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9 {
+    display:block;
+    position:relative;
+    min-height: 1px;
+    float:left;
+}
+
+.col-1{
+    width:10%;
+}
+
+.col-2{
+    width:20%;
+}
+
+.col-3{
+    width:30%;
+}
+
+.col-4{
+    width:40%;
+}
+
+.col-5{
+    width:50%;
+}
+
+.tittle{
+     padding:10px 10px;
+    line-height:1;
+    font-size: 30px;
+    font-family: 'OSwald-Variable_wght', sans-serif;
+}
+
+.contactinfo{
+    padding:20px 30px;
+    line-height:1;
+    font-family: sans-serif;
+}
+
